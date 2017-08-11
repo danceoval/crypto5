@@ -14,8 +14,11 @@
 				</figure>	
 		
 				<section class="col-md-8">
-					<h1>INSERT CODE 5 HERE</h1>
-					<p> Should evaluate to final password: 'Bluebeards Bananas'</p>
+          <h2>Decrypt the secret message below!</h2>
+					<h1>&#x1F4BF &#x231A &#x2328 &#x1F5A5 &#x1F5A8 &#x1F4BF &#x1F50B &#x2328 &#x23F3 &#x1F50C &#x1F5D1</h1>
+          <h1>&#x1F4BF &#x2328 &#x1F4BE &#x2328 &#x1F4BE &#x2328</h1>
+          <input type="text" id="guess">
+          <button id="submit">Check Guess</button>
 				</section>
 
 				<figure class="col-md-4">
@@ -25,12 +28,16 @@
 			<footer class="row">
 				<div class="col-md-2">&nbsp;</div>
 				<div class="col-md-8">
-					<strong>
-						<hr/>
-					</strong>
+					<hr/>
 				</div>
 				<div class="col-md-2">&nbsp;</div>
+        <br>
+        <div class="col-sm-12" style="text-align:center">
+          <h3 id="correct-letters"></h3>
+          <h2 id="feedback"></h2>
+        </div>
 			</footer>
 		</div>
+    <script src='/codeCheck.js'></script>
 	</body>
 </html>
