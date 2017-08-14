@@ -1,4 +1,4 @@
-var correctAnswer = 'banana';
+var correctAnswer = 'blackbeards banana';
 
 var guessInput = document.getElementById('guess');
 var submitBtn = document.getElementById('submit');
