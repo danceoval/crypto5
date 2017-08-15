@@ -22,6 +22,6 @@ submitBtn.addEventListener('click', function () {
   correctLetterOutput.innerText = 'Correct Letters: \n' + correctChars.split('').join(' ');
 
   feedback.innerText = guess === correctAnswer
-    ? 'You got it!'
+    ? 'You got it! Next url: https://desolate-plains-48244.herokuapp.com'
     : 'Keep trying!';
 });
